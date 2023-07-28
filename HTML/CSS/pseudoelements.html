@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-letter {
+            font-size:  20px;
+            color: blue;
+        }
+        div::first-line {
+            color: aqua;
+
+        }
+        div::selection {
+            background-color: brown;
+            color: aqua;
+
+        }
+        div ::after {
+            content:"ipsum";
+            color: green;
+            
+        }
+        div ::before {
+            content: "";
+            content: url(download);
+        }
+        li::marker {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, accusantium quos omnis debitis tenetur mollitia ipsum necessitatibus. Nam, dicta iste? Dolores, eum? Laudantium consequuntur veniam impedit aut, quos recusandae itaque.</div>
+    <li>Hi</li>
+    <li>kuhu</li>
+    <li>jgf</li>
+    
+</body>
+</html>
